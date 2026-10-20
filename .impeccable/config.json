@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T13:39:35.168Z",
+        "reason": "pitch-site: .pair is a full-bleed photo card; images are meant to touch the rounded edge (calm-photo-style work photo cards)"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T13:39:35.230Z",
+        "reason": "Ellie's house style: calm-photo-style.md item 2 mandates the faint 135deg band texture"
+      }
+    ]
+  }
+}
