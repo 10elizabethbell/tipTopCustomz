@@ -29,6 +29,24 @@
         ],
         "createdAt": "2026-10-20T13:42:36.043Z",
         "reason": "detector reads only fixed px sizes (11-20px); the hierarchy is carried by clamp() Cal Sans headings at 30-84px, which it does not count"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "createdAt": "2026-10-20T13:49:43.751Z",
+        "reason": "focus-ring corner on the global :focus-visible outline, not a surface radius; DESIGN.md documenter omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "createdAt": "2026-10-20T13:49:43.813Z",
+        "reason": "upper clamp bound of the hero promise line (Ellie's 20px max, ellie-taste.md)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "26px",
+        "createdAt": "2026-10-20T13:49:43.876Z",
+        "reason": "desktop size of the header wordmark, shipped before DESIGN.md was derived"
       }
     ]
   }
