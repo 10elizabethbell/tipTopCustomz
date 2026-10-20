@@ -40,7 +40,13 @@
 - **Signature motion, opt-in:** runner-up worlds from the trade: (1) a pressure-wash wand you drag across a grimy driveway in the hero to reveal clean concrete (best fit, T&J/Above All style), (2) water sheeting down the siding, (3) leaves blowing off the gutter line, (4) foam/suds for the detailing side, (5) a gold wet-sheen sweep across the logo's chrome.
 - Before/after sliders: needs pairs shot from the same spot; ask for some.
 - A detailing section of its own if the owner wants it (car, boat, RV), with photos.
-- Impeccable findings kept against Ellie's chosen calm style (see the sweep notes below).
+- **Impeccable findings left standing (they'd remove your calm-style choices):** the craft floor bans eyebrow pills, and the detector flags the diagonal band texture as "repeating-gradient stripes". Both stay. I also suppressed two other detector flags for `index.html`, in `.impeccable/config.json`: "cramped padding" (the photo pairs are meant to run to the card edge) and "flat type hierarchy" (it only counts the 11–20px sizes and misses the 30–84px Cal Sans headings, which use clamp()).
+- From the finish review, not built: let the logo's neon blue/purple glow into the page somewhere (only the form focus colour uses it now); before/after drag sliders once pairs are shot from the same spot.
+- Small delights from the sweep: a water splash when a job chip is ticked; a soft "rinse" wipe revealing each after photo as it scrolls in (motion, so opt-in).
+
+## Review passes done
+- All Impeccable modes except live (critique, audit, polish, harden, clarify, adapt, optimize, typeset, layout, colorize, animate, delight, distill, quieter, bolder, overdrive, extract) and the finish reviewer. Applied: the chip error is now tied to its group for screen readers; the close-band H2 is hidden visually under the logo; repeated lines are trimmed; "brand new" stays on one line in the phone H1; step numbers are a quiet navy tint; the gold accent was taken off the light-band heading; the H1 split waits up to 600ms for Cal Sans so the font doesn't swap mid-bounce; near-duplicate type sizes are merged.
+- Checked in Chromium and WebKit at 360/390/414/430/1440: no sideways overflow, inputs ≥16px, the hero's primary button sits within the first screen (bottom at 460–495px of 800 on phones), the bounce-in runs and restores the plain H1, reduced motion and no-JS show everything, the floating circle is hidden on the hero, shown at services and hidden at the form, and the composed text decodes correctly.
 
 ## Not verified
 - Real-device touch and the real SMS handoff on iOS/Android (sms: body tested by decoding the composed URL in Chromium and WebKit).

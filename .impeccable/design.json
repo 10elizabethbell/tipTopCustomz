@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T13:48:17+00:00",
+  "title": "Design System: TIP TOP Customz",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f4f6fb",
+        "oklch": "oklch(97.3% 0.007 269)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#232428",
+          "#3e4044",
+          "#5c5d62",
+          "#7b7d82",
+          "#9c9ea3",
+          "#c2c4c9",
+          "#eceef3"
+        ]
+      },
+      "light": {
+        "role": "neutral",
+        "displayName": "Quote Mist",
+        "canonical": "#e7ecf5",
+        "oklch": "oklch(94.2% 0.013 262)",
+        "tonalRamp": [
+          "#080b11",
+          "#21242b",
+          "#3c4047",
+          "#5a5e65",
+          "#797d85",
+          "#9a9fa7",
+          "#bfc4cd",
+          "#eaeff8"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Mist",
+        "canonical": "#e6ecf5",
+        "oklch": "oklch(94.1% 0.014 258)",
+        "tonalRamp": [
+          "#080b11",
+          "#20242b",
+          "#3b4047",
+          "#595e66",
+          "#787e86",
+          "#999fa7",
+          "#bfc5cd",
+          "#e9eff8"
+        ]
+      },
+      "ink": {
+        "role": "secondary",
+        "displayName": "Night Navy",
+        "canonical": "#0e1f3d",
+        "oklch": "oklch(24.3% 0.062 261)",
+        "tonalRamp": [
+          "#000924",
+          "#122342",
+          "#2d4060",
+          "#4a5e81",
+          "#687ea3",
+          "#899fc6",
+          "#aec5ed",
+          "#d7f0ff"
+        ],
+        "note": "Also declared as --deep: the hero and footer ground."
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "#26354b",
+        "oklch": "oklch(32.6% 0.044 258)",
+        "tonalRamp": [
+          "#020b1d",
+          "#162439",
+          "#314057",
+          "#4e5f77",
+          "#6d7e98",
+          "#8ea0ba",
+          "#b3c6e1",
+          "#ddf0ff"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "#4a5870",
+        "oklch": "oklch(45.8% 0.043 261)",
+        "tonalRamp": [
+          "#030a1d",
+          "#182439",
+          "#334057",
+          "#505e76",
+          "#6f7e98",
+          "#909fba",
+          "#b5c5e1",
+          "#dff0ff"
+        ]
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "Logo Navy",
+        "canonical": "#17366b",
+        "oklch": "oklch(34.2% 0.100 260)",
+        "tonalRamp": [
+          "#000234",
+          "#032053",
+          "#1e3e74",
+          "#3c5d95",
+          "#5a7db8",
+          "#7a9fdd",
+          "#9fc5ff",
+          "#c8f0ff"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "Moonlight",
+        "canonical": "#f4f7fb",
+        "oklch": "oklch(97.5% 0.006 255)",
+        "tonalRamp": [
+          "#090b0e",
+          "#222427",
+          "#3e4043",
+          "#5b5e61",
+          "#7b7d81",
+          "#9c9fa2",
+          "#c1c4c8",
+          "#eceff3"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "Moonlight Soft",
+        "canonical": "#c8d4e8",
+        "oklch": "oklch(86.7% 0.031 261)",
+        "tonalRamp": [
+          "#050b18",
+          "#1b2433",
+          "#374050",
+          "#545e6f",
+          "#737e90",
+          "#949fb2",
+          "#b9c5d9",
+          "#e3efff"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Customz Gold",
+        "canonical": "#e8b84a",
+        "oklch": "oklch(80.6% 0.136 85)",
+        "tonalRamp": [
+          "#200000",
+          "#3d1a00",
+          "#5c3700",
+          "#7c5600",
+          "#9e7604",
+          "#c1983a",
+          "#e8be62",
+          "#ffe98d"
+        ]
+      },
+      "gold-2": {
+        "role": "primary",
+        "displayName": "Warm Gold Highlight",
+        "canonical": "#f2ca6a",
+        "oklch": "oklch(85.5% 0.123 87)",
+        "tonalRamp": [
+          "#1f0100",
+          "#3c1b00",
+          "#5a3800",
+          "#7a5700",
+          "#9c7703",
+          "#be9939",
+          "#e6bf62",
+          "#ffea8d"
+        ]
+      },
+      "gold-ink": {
+        "role": "primary",
+        "displayName": "Burnished Gold Ink",
+        "canonical": "#85601a",
+        "oklch": "oklch(51.5% 0.096 79)",
+        "tonalRamp": [
+          "#1f0100",
+          "#3c1b00",
+          "#5a3800",
+          "#7a560a",
+          "#9c7634",
+          "#bf9756",
+          "#e6bd7b",
+          "#ffe8a4"
+        ]
+      },
+      "focus": {
+        "role": "tertiary",
+        "displayName": "Electric Form Blue",
+        "canonical": "#2563d9",
+        "oklch": "oklch(53.2% 0.192 262)",
+        "tonalRamp": [
+          "#00003c",
+          "#001c5c",
+          "#183b7e",
+          "#365ba1",
+          "#547cc4",
+          "#749ee9",
+          "#99c4ff",
+          "#c2efff"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Signal Red",
+        "canonical": "#b3261e",
+        "oklch": "oklch(50.1% 0.178 29)",
+        "tonalRamp": [
+          "#2d0000",
+          "#4f0000",
+          "#721d16",
+          "#953e34",
+          "#ba5f53",
+          "#df8073",
+          "#ffa697",
+          "#ffd0c0"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "rgba(255,255,255,.14)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; letter bounce-in once."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section H2s."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Step titles; service rows and the Facebook row sit at this step."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Buttons, form labels and legends, header phone number."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Sentence under a section heading, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, inputs, chips."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Hints, the line under the submit, eyebrow text."
+      }
+    },
+    "textures": [
+      {
+        "name": "deep-band-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Faint diagonal lines on deep-navy grounds (hero, footer). Keep at about 4% white or fainter."
+      },
+      {
+        "name": "hero-veil",
+        "value": "linear-gradient(180deg,rgba(14,31,61,.72) 0%,rgba(14,31,61,.8) 55%,rgba(14,31,61,.9) 100%)",
+        "purpose": "Night Navy veil over the hero photograph so white text holds contrast."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(8,20,42,.32)",
+        "purpose": "The floating text circle only."
+      }
+    ],
+    "focus": [
+      {
+        "name": "ring-light",
+        "value": "3px solid #2563d9, offset 3px (2px on chips and the form submit)",
+        "purpose": "Focus on light grounds."
+      },
+      {
+        "name": "ring-dark",
+        "value": "3px solid #e8b84a, offset 3px",
+        "purpose": "Focus on the hero, navy bands and footer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), translateX(50px)->0, 20ms stagger",
+        "purpose": "Hero H1 letters only, once; skipped under reduced motion."
+      },
+      {
+        "name": "rise",
+        "value": "opacity + translateY(12px), .4s ease-out",
+        "purpose": "Elements that start below the first screen, on entering view."
+      },
+      {
+        "name": "float-slide",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), translateY(120px)->0",
+        "purpose": "Floating text circle appearing after the hero."
+      },
+      {
+        "name": "control-state",
+        "value": ".2s (buttons, arrow wells), .15s (fields, chips)",
+        "purpose": "Colour and border state changes."
+      },
+      {
+        "name": "press",
+        "value": "scale(.98), .12s",
+        "purpose": "Button active state."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "max-width: 380px"
+      },
+      {
+        "name": "wide",
+        "value": "760px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one gold-filled action per view; Night Navy text.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Reserve your spot</a></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-stage{padding:24px;background:var(--paper)}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn-primary{background:var(--gold);color:var(--ink);border-color:var(--gold)}.ds-btn-primary:hover{background:var(--gold-2);border-color:var(--gold-2)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined secondary action, dark grounds only.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text us</a></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-stage{padding:24px;background-color:var(--deep);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,247,251,.7)}.ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}.ds-btn-ghost:focus-visible{outline:3px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Borderless field on Field Mist; blue border on hover and focus, red on error.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-card{background:var(--card);border-radius:24px;padding:24px;display:grid;gap:8px;max-width:420px}.ds-label{font:400 18px/1.2 var(--display);color:var(--ink)}.ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:var(--focus);transition:border-color .15s}.ds-input::placeholder{color:var(--soft)}.ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Job Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio chips for the job type; selected fills Night Navy.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-chips\"><input type=\"radio\" name=\"ds-j\" id=\"ds-j1\" checked><label for=\"ds-j1\">Siding</label><input type=\"radio\" name=\"ds-j\" id=\"ds-j2\"><label for=\"ds-j2\">Driveway</label><input type=\"radio\" name=\"ds-j\" id=\"ds-j3\"><label for=\"ds-j3\">Deck</label></div></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-card{background:var(--card);border-radius:24px;padding:24px}.ds-chips{display:flex;flex-wrap:wrap;gap:10px}.ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}.ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chips label:hover{border-color:var(--focus)}.ds-chips input:checked+label{background:var(--ink);color:#fff}.ds-chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Slim paper bar: two-line wordmark left, tap-to-call right.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>TIP TOP</b><span>Customz</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>(828) 246-2273</a></header>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper);color:var(--ink)}.ds-brand{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1}.ds-brand b{font:400 22px/1 var(--display);letter-spacing:.02em}.ds-brand span{font:600 11px/1 var(--text);letter-spacing:.1em;text-transform:uppercase;color:var(--gold-ink);margin-top:5px}.ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 18px/1 var(--display);text-decoration:none;color:var(--ink);white-space:nowrap}.ds-tel svg{color:var(--gold-ink)}.ds-tel:hover{color:var(--gold-ink)}.ds-tel:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Whole-row link on navy; only the arrow well fills gold on hover.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-row\" href=\"#\">Driveways<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a><a class=\"ds-row\" href=\"#\">Decks<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-stage{background:var(--navy);padding:24px}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;padding:10px 0;text-decoration:none;color:var(--on-dark);font:400 24px/1.15 var(--display);border-top:1px solid var(--rule-dark)}.ds-row:last-child{border-bottom:1px solid var(--rule-dark)}.ds-arrow{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:var(--on-dark);transition:background-color .2s,color .2s}.ds-row:hover,.ds-row:focus-visible{outline:none}.ds-row:hover .ds-arrow{background:var(--gold);color:var(--ink)}.ds-row:focus-visible .ds-arrow{background:var(--gold);color:var(--ink);outline:3px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Before / After Pair",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Two 4:5 photos in a Night Navy 24px frame with bottom-gradient labels.",
+      "html": "<div class=\"ds-pair\"><figure class=\"ds-shot\" style=\"background:#7d8796\"><span>Before</span></figure><figure class=\"ds-shot\" style=\"background:#c9d3df\"><span>After</span></figure></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:4px;border-radius:24px;overflow:hidden;background:var(--ink);max-width:420px}.ds-shot{position:relative;margin:0;aspect-ratio:4/5}.ds-shot span{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;font:400 16px/1 var(--display);color:#fff;background:linear-gradient(180deg,transparent,rgba(14,31,61,.85))}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-text",
+      "description": "60px gold circle that opens a pre-filled text; the only shadowed object.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-float\" href=\"#\" aria-label=\"Text us\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div>",
+      "css": ":host{--paper:#f4f6fb;--light:#e7ecf5;--card:#fff;--field:#e6ecf5;--ink:#0e1f3d;--body:#26354b;--soft:#4a5870;--navy:#17366b;--deep:#0e1f3d;--on-dark:#f4f7fb;--on-dark-soft:#c8d4e8;--gold:#e8b84a;--gold-2:#f2ca6a;--gold-ink:#85601a;--focus:#2563d9;--error:#b3261e;--rule-dark:rgba(255,255,255,.14);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-stage{padding:32px;background:var(--paper)}.ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--ink);box-shadow:0 10px 28px rgba(8,20,42,.32)}.ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Night Navy, Gold Script",
+    "overview": "The system takes its whole palette from the client's logo, a black-ground badge with a chrome \"TIP TOP\" and a gold script \"Customz\", and moves that night into navy so the page never goes black. Full-bleed bands alternate between off-white paper and two navies, and the photographs carry the proof. The crew's own after shot sits behind the hero under a navy veil, and four before/after pairs from their Facebook post video follow it. Gold is the one warm voice. It fills the primary action, the floating text circle and the arrow wells, and it colours only the last phrase of a heading on dark ground.\n\nThe look is Ellie's house \"calm band\" style (`~/.claude/skills/pitch-site/references/calm-photo-style.md`), and this build is a faithful instance of it. Density is low and phone-first: one column at 20px gutters, generous 64px bands, and a single display face at regular weight. Motion is limited to three moments: the hero H1 bounces in letter by letter once, content below the first screen rises 12px into view, and a gold text circle slides up after the hero.\n\nEverything is soft and borderless. Cards have 24px corners, buttons and chips are full pills, inputs sit on a tinted fill, and the only shadow on the page is under the floating circle.",
+    "keyCharacteristics": [
+      "Paper / navy / light / deep-navy bands, each section obvious by colour change alone.",
+      "Gold as a fill, never as text on light; a darker gold-ink stands in when gold must be read on paper.",
+      "Cal Sans at weight 400 for every heading, button, label and phone number; system sans for running text at 16/1.7.",
+      "Real photography only, cropped 4:5 for proof and shown under a navy gradient where text sits on it.",
+      "Flat surfaces; depth comes from band contrast, not shadow."
+    ],
+    "rules": [
+      {
+        "name": "The Gold-Is-A-Fill Rule",
+        "body": "Gold is a fill colour. Text on gold is always Night Navy. Gold as text on paper or light uses Burnished Gold Ink; bright gold text appears only on navy grounds and the hero.",
+        "section": "colors"
+      },
+      {
+        "name": "The Never-Black Rule",
+        "body": "The logo's black ground becomes Night Navy. No band, overlay or footer uses black.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Ring Rule",
+        "body": "Focus is Electric Form Blue on light grounds and gold on navy grounds (hero, navy bands, footer), always a 3px outline with a 2-3px offset.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Cal Sans is only ever set at 400. Emphasis comes from size and colour (the gold accent phrase), never from bold display type.",
+        "section": "typography"
+      },
+      {
+        "name": "The Bounce-Once Rule",
+        "body": "Only the hero H1 animates its letters: each slides in 50px from the right over 1s with an overshoot curve (`cubic-bezier(.34,1.56,.64,1)`), 20ms apart. Then the plain heading is restored. Nothing else animates its text, and reduced motion or no JS shows the plain heading at once.",
+        "section": "typography"
+      },
+      {
+        "name": "The Band Alternation Rule",
+        "body": "Adjacent sections never share a ground; a new section is announced by a change of band, not by a divider or heading ornament.",
+        "section": "layout"
+      },
+      {
+        "name": "The One Lift Rule",
+        "body": "Cards, buttons, rows and chips carry no shadow at rest or on hover. The floating circle is the only shadowed object.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Arrow-Only Hover Rule",
+        "body": "On hover or focus a row or the Facebook slab changes nothing but its arrow well, which fills gold with a Night Navy arrow. Keyboard focus adds a gold ring around the well.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** take the navies and the accent from the client's logo, and keep the page ground paper (#f4f6fb), never black.",
+      "**Do** put Night Navy text on every gold fill, and switch to gold-ink (#85601a) whenever gold must be read on paper or light.",
+      "**Do** set every heading, button, label and phone number in Cal Sans at 400; keep running text in the system stack at 16px / 1.7.",
+      "**Do** alternate full-bleed bands (paper, navy, light, deep navy with the 135deg texture at about 3.5% white) so each section is announced by its ground.",
+      "**Do** use only the three radii (10px field, 24px card, pill) plus perfect circles for icon wells.",
+      "**Do** show the client's own photographs, `object-fit: cover`, under a Night Navy gradient wherever text sits on them.",
+      "**Do** keep every tap target at 44px or more (buttons 56px, chips 48px, rows 68px)."
+    ],
+    "donts": [
+      "**Don't** put white text on gold or bright gold text on paper; both fail contrast.",
+      "**Don't** add shadows to cards, buttons, chips or rows; the floating circle is the only lifted object.",
+      "**Don't** give inputs a visible border at rest; the field fill is the affordance, and the border appears on hover, focus or error.",
+      "**Don't** use bold Cal Sans or a second display face.",
+      "**Don't** animate letters on any heading but the hero H1, and don't hide content at opacity 0 for anyone who has not scrolled to it.",
+      "**Don't** change a service row's background, underline or text on hover; only the arrow well fills.",
+      "**Don't** replace the floating circle with a sticky bottom bar.",
+      "**Don't** fill with Electric Form Blue; it is an outline and caret colour for controls only."
+    ]
+  }
+}
