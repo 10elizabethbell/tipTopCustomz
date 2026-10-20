@@ -95,7 +95,7 @@ section{padding:64px 0}
 .brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
 .brand b{font:400 22px/1 var(--display);letter-spacing:.02em}
 .brand span{font:600 11px/1 var(--text);letter-spacing:.1em;white-space:nowrap;text-transform:uppercase;color:var(--gold-ink);margin-top:5px}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--gold-ink)}
 
 /* ---------- Hero: their own after shot under deep navy ---------- */
@@ -105,7 +105,7 @@ section{padding:64px 0}
 .hero picture img{object-fit:cover;object-position:50% 40%}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(14,31,61,.72) 0%,rgba(14,31,61,.8) 55%,rgba(14,31,61,.9) 100%)}
 .hero-copy{position:relative;display:grid;gap:20px;justify-items:start;padding-top:56px;padding-bottom:72px}
-.hero h1{color:#fff;font-size:clamp(44px,12.4vw,84px);line-height:1.02;max-width:11ch}
+.hero h1{color:#fff;font-size:clamp(44px,12.4vw,84px);line-height:1.02;max-width:12ch}
 /* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
 .hero h1 .w{display:inline-block;white-space:nowrap}
 .hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
@@ -122,7 +122,7 @@ section{padding:64px 0}
 .shot span{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;font:400 16px/1 var(--display);color:#fff;background:linear-gradient(180deg,transparent,rgba(14,31,61,.85))}
 .fb{margin-top:24px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--navy);color:var(--on-dark);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display)}
 .fb:hover,.fb:focus-visible{outline:none;box-shadow:none}
-.fb .lbl{display:flex;align-items:center;gap:14px}
+.fb .lbl{display:flex;align-items:center;gap:14px;text-wrap:balance}
 .fb .lbl svg{width:30px;height:30px;flex:none;color:var(--gold)}
 .arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:var(--on-dark);transition:background-color .2s,color .2s}
 .arrow svg{width:18px;height:18px}
@@ -137,8 +137,8 @@ section{padding:64px 0}
 /* ---------- How it works ---------- */
 .steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
 .steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(232,184,74,.32);color:var(--ink);font:400 20px/1 var(--display)}
-.steps b{display:block;font:400 21px/1.2 var(--display);color:var(--ink);margin-top:4px}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(14,31,61,.08);color:var(--ink);font:400 20px/1 var(--display)}
+.steps b{display:block;font:400 22px/1.2 var(--display);color:var(--ink);margin-top:4px}
 .steps span{display:block;margin-top:4px;color:var(--soft)}
 
 /* ---------- Form ---------- */
@@ -169,10 +169,9 @@ form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:2p
 
 /* ---------- Close ---------- */
 .close .logo{width:min(320px,80%);height:auto;mix-blend-mode:screen;margin:-8px 0 20px -6px}
-.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark-soft)}
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.8em;height:.8em;flex:none;color:var(--gold)}
-.area{margin-top:22px;max-width:40ch}
+.area{margin-top:0;max-width:40ch;font-size:clamp(18px,5vw,20px)}
 
 /* ---------- Footer ---------- */
 footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
@@ -245,6 +244,7 @@ OWN-WORLD: Off-white paper, a night-navy (#0e1f3d) and mid navy (#17366b) taken 
 STORY: The visitor sees what they wash and that they come to you, sees four real before/afters, trusts that the crew takes care, and texts to reserve a spot.
 FIRST VIEWPORT: Paper header with the TIP TOP wordmark left and tap-to-call number top right. Hero: their freshly cleared roof under deep navy, eyebrow "We come to you", H1 "Make it look brand new again.", the slogan, two pills (Reserve your spot, Text us).
 FORM: calm band system with a photo hero; no location published (brief: area mismatch).
+SEED: none (direction fixed by calm-photo-style.md, house default 2026-10-19).
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, DESIGN.md, and every shipping raster carrying its provenance (frames from the owner's Facebook post video, logo from the page og:image).
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -267,7 +267,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </picture>
   <div class="wrap hero-copy">
     <p class="eyebrow">We come to you</p>
-    <h1 id="h1">Make it look <span class="accent">brand new again.</span></h1>
+    <h1 id="h1">Make it look <span class="accent"><span class="nw">brand new</span> again.</span></h1>
     <p class="promise"><b>Tip Top results</b> without the top-tier price. Homes and businesses.</p>
     <div class="actions">
       <a class="btn btn-primary" href="#ask">Reserve your spot</a>
@@ -314,12 +314,12 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <section class="on-paper care" aria-labelledby="h-care">
   <div class="wrap">
     <div class="head rise">
-      <h2 id="h-care">Your place, treated like <span class="accent">our own.</span></h2>
+      <h2 id="h-care">Your place, treated like our own.</h2>
       <p class="lede">We take our time on your home or storefront, and don't call it done until it looks tip top.</p>
     </div>
     <ol class="steps">
       <li class="rise"><div><b>Text or call us.</b><span>Tell us what needs cleaning.</span></div></li>
-      <li class="rise"><div><b>We come to you.</b><span>At your home or your business.</span></div></li>
+      <li class="rise"><div><b>We show up.</b><span>At your home or your business.</span></div></li>
       <li class="rise"><div><b>It looks brand new again.</b><span>Without the top-tier price.</span></div></li>
     </ol>
   </div>
@@ -373,7 +373,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <div class="rise">
       <img class="logo" src="img/logo.webp" width="680" height="380" loading="lazy" decoding="async" alt="TIP TOP Customz logo: a car, a boat and an RV over chrome lettering">
       <h2 id="h-close" class="sr">TIP TOP Customz</h2>
-      <p class="who">Call or text today to reserve your spot.</p>
       <p class="area">We come to you. Not sure we cover your area? Text and ask.</p>
     </div>
     <a class="bigtel rise" href="tel:+18282462273"><svg aria-hidden="true"><use href="#i-phone"/></svg>(828) 246-2273</a>
@@ -383,7 +382,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <footer>
   <div class="wrap">
-    <span>TIP TOP Customz · Residential &amp; commercial · <span class="nw">(828) 246-2273</span></span>
+    <span>TIP TOP Customz · Residential &amp; commercial · <a class="nw" href="tel:+18282462273">(828) 246-2273</a></span>
     <nav aria-label="Contact">
       <a href="https://www.facebook.com/profile.php?id=61579619113878" rel="noopener">Facebook</a>
     </nav>

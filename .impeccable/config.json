@@ -20,6 +20,15 @@
         ],
         "createdAt": "2026-10-20T13:39:35.230Z",
         "reason": "Ellie's house style: calm-photo-style.md item 2 mandates the faint 135deg band texture"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T13:42:36.043Z",
+        "reason": "detector reads only fixed px sizes (11-20px); the hierarchy is carried by clamp() Cal Sans headings at 30-84px, which it does not count"
       }
     ]
   }
